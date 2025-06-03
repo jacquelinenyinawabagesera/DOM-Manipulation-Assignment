@@ -1,0 +1,24 @@
+
+#fruitList, #vegetableList {
+    display: flex;
+    justify-content: space-around;
+    padding-left: 0;
+    list-style: none;
+    gap: 3vw; 
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+  }
+  .fruit-item-container, .vegetable-item-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 180px; 
+  }
+  .fruit-item-container img, .vegetable-item-container img {
+    width: 100%;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+    height: auto;
+    object-fit: cover;
+    max-height: 180px; 
+  }
